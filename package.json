@@ -11,7 +11,9 @@
     "migrations:run": "sequelize-cli db:migrate",
     "migrations:revert": "sequelize-cli db:migrate:undo",
     "migrations:delete": "sequelize-cli db:migrate:undo:all",
-    "seeder:generate": "sequelize-cli seed:generate --name"
+    "seeder:generate": "sequelize-cli seed:generate --name",
+    "seeder:run": "sequelize-cli db:seed:all",
+    "seeder:delete": "sequelize-cli db:seed:undo:all"
 
   },
   "keywords": [],
