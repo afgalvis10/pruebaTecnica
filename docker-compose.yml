@@ -19,4 +19,4 @@ services:
       - MYSQL_ROOT_PASSWORD=921004_g
       - PMA_HOST=mysql
     ports:
-      - 9090:90
+      - 8080:80
